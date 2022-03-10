@@ -16,3 +16,8 @@ from sklearn import tree
 plt.figure(figsize=(15,10))
 tree.plot_tree(Dclassifier,filled=True)
 
+NAIVE Bayes's theorem
+
+NB = GaussianNB()
+NB.fit(X_train, y_train)
+
